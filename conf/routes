@@ -1,0 +1,7 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+POST       /v1/diff/:id/left       controllers.JsonController.setLeft(id: String)
+POST       /v1/diff/:id/right      controllers.JsonController.setRight(id: String)
+GET        /v1/diff/:id            controllers.JsonController.get(id: String)
